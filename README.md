@@ -4,7 +4,7 @@ So bekommt ihr die Erweiterung in eueren Browser:
 
 #### 1. Erweiterung herunterladen
 
-Öffnet [dieses Projekt bei GitHub](https://github.com/tillprochaska/hms-workshop-chrome-to-adafruit) und ladet die Erweiterung als ZIP-Archiv herunter und entpackt sie.
+Klickt auf den grünen "Code"-Button und ladet die Erweiterung als ZIP-Archiv herunter.
 
 ![](images/1-download.png)
 
