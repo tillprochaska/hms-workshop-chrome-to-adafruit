@@ -20,3 +20,13 @@ So bekommt ihr die Erweiterung in eueren Browser:
 Klickt auf den Button "Load unpacked" und wählt den (entpackten) Ordner aus, den ihr im ersten Schritt heruntergeladen habt.
 
 ![](images/3-load.png)
+
+####  4. Adafruit-Zugangsdaten hinterlegen
+
+Öffnet die Datei `script.js` (unter Windows z.B. mit dem Programm "Notepad", unter macOS mit "Text Edit") und fügt an den markierten Stellen euren Adafruit-Benutzernamen, -Key und -Feed ein.
+
+#### 5. Erweiterung neu laden
+
+Weil ihr nun den Quelltext der Erweiterung geändert habt, müsst ihr die Erweiterung mit einem Klick auf das "Refresh"-Icon einmal neu laden.
+
+![](images/4-reload.png)
