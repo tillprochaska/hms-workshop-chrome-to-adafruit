@@ -1,15 +1,17 @@
 {
-  "name": "Data Dave",
-  "description": "Data Dave klärt dich auf, wann immer dein Browser Daten an Google oder Facebook sendet.",
+  "name": "Wuddy",
+  "description": "",
   "version": "1.0",
-  "manifest_version": 3,
-  "background": {
-    "service_worker": "background.js"
-  },
-  "permissions": [
-    "webRequest"
+  "manifest_version": 2,
+  "content_scripts": [
+      {
+        "matches": ["*://*/*"],
+        "js": ["script.js"],
+        "run_at": "document_start"
+      }
   ],
-  "host_permissions": [
-    "*://*/*"
+  "permissions": [
+    "tabs",
+    "<all_urls>"
   ]
 }
